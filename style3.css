@@ -1,0 +1,61 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Aerial" , sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+    background-size: contain;
+    background-position: center;
+
+}
+.wrapper { 
+    width: 500px;
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0 , 0 , 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    
+}
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 2px;
+    text-emphasis-color: rgb(184, 16, 16);
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px  45px 20px 2px;
+}
+.input-box :-ms-input-placeholder {
+    color: #fff;
+    
+}
+.input-box i {
+    position: absolute;
+    right : 20px;
+    top: 50px;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+.wrapper textarea{
+    background-color: transparent;
+    padding: 1px , 4px ,2px , 1px;
+    text-align: left ;
+    background-color: #fff;
+}

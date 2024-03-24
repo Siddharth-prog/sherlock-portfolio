@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clue Entry</title>
+    <link rel ="stylesheet" href ="style2.css">
+</head>
+<body>
+    
+    <div class ="wrapper">
+        
+            <h1>EVIDENCE DATA</h1>
+            <br>
+            <br>
+            <form action="">
+            <div class="input-box">
+                <label for="Evidence">Evidence</label>
+                <input type="text" placeholder="Enter the Evidences" id="Evidence" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input">
+                <label for="type">Category</label>
+                <fieldset>
+                    
+                    <select name="Category" id="type">
+                        <option value="select">---select---</option>
+                        <option value="ev1">Physical Evidence</option>
+                        <option value="ev2">Witness Statement</option>
+                        <option value="ev3">Observation</option>
+                        
+                    </select>
+                </fieldset>
+            </div>
+            <div class="input-box">
+                <label for="date">Date</label>
+                <input type="date" placeholder="Date" required>
+                <i class='bx bx-lock'></i>
+            </div>
+            <div >
+                <label for="Description">Enter Description of Evidence </label>
+                <textarea id="Description" name="Description" rows="10" cols="50" placeholder="Description">
+                    
+                    </textarea>
+                
+            </div>
+            <div><button type="submit" class="btn">Add+</button></div>
+            <div><button type="submit" class="btn">SUBMIT</button></div>
+            
+            
+            
+    </div>
+</form>
+
+</body>
+</html>
